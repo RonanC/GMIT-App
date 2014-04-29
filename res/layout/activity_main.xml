@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outerCon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="ie.gmit.gmit.MainActivity$PlaceholderFragment" >
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="wrap_content"
+            android:layout_height="135dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="GMITFront"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cover" />
+
+        <TableLayout
+            android:id="@+id/TableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/clubs"
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary"
+                    android:contentDescription="clubs"
+                    android:padding="5dp"
+                    android:src="@drawable/sportimage" />
+
+                <ImageView
+                    android:id="@+id/su"
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary"
+                    android:contentDescription="su"
+                    android:padding="5dp"
+                    android:src="@drawable/sufb" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary"
+                    android:contentDescription="map"
+                    android:padding="5dp"
+                    android:src="@drawable/map" />
+
+                <ImageView
+                    android:id="@+id/gallery"
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary"
+                    android:contentDescription="gallery"
+                    android:padding="5dp"
+                    android:src="@drawable/galleryicon" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

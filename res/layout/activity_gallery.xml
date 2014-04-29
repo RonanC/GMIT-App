@@ -1,0 +1,16 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ie.gmit.lab9_gallery.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:numColumns="auto_fit"
+    android:columnWidth="90dp"
+    android:horizontalSpacing="10dp"
+    android:verticalSpacing="0dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth"
+    android:background="@color/primary">
+  
+</GridView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GMIT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <dimen name="imageBut">175sp</dimen>
+	<!--  The primary and secondary colours are the correct brand colours -->
+    <color name="primary">#7D9BC1</color>
+    <color name="secondary">#862633</color>
+    <color name="textCol">#ffffff</color>
+
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_full_image">Gallery</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    <string name="app_id">1391026141181572</string>
+    <string name="title_activity_face">FaceActivity</string>
+    <string name="title_activity_club">ClubActivity</string>
+    <string name="title_activity_about">About</string>
+    <string name="gmitAbout">GMIT is a multi-campus college, based in five locations in the West of Ireland:\n-Galway city (two campuses)\n-Mayo\n-Letterfrack\n-Mountbellew.\n\nWe have a number of different Schools/Colleges, each specialising in a different area.\nWe also have a strong focus on research and innovation.</string>
+	
+    <string name="devAbout">App developed by GMIT software student Ronan Connolly</string>
+	<dimen name="textSize">15dp</dimen>
+    
+</resources>
