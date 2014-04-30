@@ -32,6 +32,11 @@ import com.facebook.Session.StatusCallback;
 import com.facebook.SessionState;
 import com.facebook.model.GraphObject;
 
+/*
+ * This activity is not in use at the moment,
+ * but I would like to add a direct feed to the SU FB with this
+ */
+
 public class FacebookActivity extends Activity {
 
 	@Override

@@ -25,11 +25,17 @@
 
     <dimen name="textSize">15dp</dimen>
 
-    <string name="share">Share</string>
     <string name="title_activity_su_feed">SuFeed</string>
     <string name="title_activity_portal">Portal</string>
     <string name="title_activity_club_info">ClubInfo</string>
     <string name="title_activity_club_feed">ClubFeed</string>
     <string name="title_activity_bus">BusActivity</string>
+    <string name="title_activity_fixtures">Fixtures</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    
+    <string name="contacts">Contact Us</string>
+    <string name="courses">Courses</string>
+    
+    <string name="courseInfo">Course Information</string>
 
 </resources>

@@ -101,6 +101,37 @@
             android:name="ie.gmit.gmit.BusActivity"
             android:label="@string/title_activity_bus" >
         </activity>
+        <activity
+            android:name="ie.gmit.gmit.Fixtures"
+            android:label="@string/fixtures" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.Sponsors"
+            android:label="@string/sponsors" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.Facilities"
+            android:label="@string/facilities" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.Schol"
+            android:label="@string/scholarships" >
+        </activity>
+        
+        <activity
+            android:name="ie.gmit.gmit.Contacts"
+            android:label="@string/contacts" >
+        </activity>
+        
+        <activity
+            android:name="ie.gmit.gmit.Courses"
+            android:label="@string/courses" >
+        </activity>          
+        
+                <activity
+            android:name="ie.gmit.gmit.CourseInfo"
+            android:label="@string/courseInfo" >
+        </activity>    
     </application>
 
 </manifest>

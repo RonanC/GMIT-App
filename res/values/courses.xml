@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="business">Business</string>
+    <string name="engineering">Engineering</string>
+    <string name="humanities">Humanities</string>
+    <string name="hotel">Hotel</string>
+    <string name="science">Science</string>
+    
+    <string name="businessText"><b>What can I study in the School of Business?</b>\n\n\n
+        We offer a wide range of programmes at undergraduate and postgraduate level.\n\n
+        Programmes cover all aspects of business including accountancy, economics, project management, marketing, information systems management, human resource management and agri-business.\n\n
+        Graduates of the School of Business are highly employable and work in a variety of roles throughout the business arena:\n\n
+        \t- Management and/or administrative positions\n\n
+        \t- Marketing\n\n
+        \t- Information Technology\n\n
+        \t- Working in Ireland and/or working abroad\n\n
+        \t- Public Service\n\n
+        \t- Finance and Banking\n\n
+        \t- Agri-business\n\n\n
+        You should view a business qualification as the first stepping-stone to a successful career and further study.\n\n
+        GMIT\'s School of Business is one of the largest schools in the country with close links to industrial, commercial, private sector services, public sector organisations and all relevant professional bodies at local, regional and national levels. The School has several student exchange courses in operation with similar educational institutions in Germany, France, The Netherlands, Spain, and the United States.\n\n\n
+<b>How do I enter the School of Business?</b>\n\n\n
+        To be admitted to the first year of any any of the following programmes, applicants must initially apply through the CAO:\n\n
+        \t- Bachelor of Business\n\n
+        \t- Bachelor of Business (Honours)\n\n
+        \t- Bachelor of Business in Administration and Information Systems\n\n
+        \t- Bachelor of Arts (Honours) in Information Systems Management\n\n
+        \t- Bachelor of Business in Rural Enterprise and Agri-Business\n\n
+        \t- Bachelor of Business (Honours) in Accounting\n\n\n
+<b>Undergraduate Add-on Programmes</b>\n\n\n
+        GMIT\'s School of Business also welcomes applications from existing students, including those currently studying in other colleges and universities.  These applicants may apply for admission to:\n\n
+        \t- Bachelor of Business (Honours)\n\n
+        \t- Bachelor of Business (Honours) in Information Systems Management\n\n\n
+<b>Postgraduate Programmes</b>\n\n\n
+        \t- Postgraduate Diploma in Accounting\n\n
+        \t- ACCA Professional Level</string>
+        
+    <string name="engineeringText"><b>GMIT\’s School of Engineering</b> is a thriving community of just over 1100 students and 100 staff. We provide a broad range of engineering and technology programmes that meet both the career aspiration of students and the practical skills needs of regional and national industry. The entry programmes in general are level 7 ordinary degrees from which students can progress to appropriate level 8 honours degrees.\n\n
+        We place a strong emphasis on professional and personal development. Our programmes focus on the practical problem-solving techniques and methods appropriate to each career. Each student has also the opportunity to avail of work placement modules which give an introduction to the workplace in Ireland or overseas, and introduce the student to work-based learning and the development of essential life-long learning as a habit.\n\n
+        All of our students can also avail of overseas study at our partner institutions in Europe, and North America. This study is designed to give the student a different perspective on the discipline of study and learning, and to provide the student with the challenges of accommodating to a new culture.\n\n
+        Our staff constantly strive to improve to the student\’s learning opportunities through their teaching and assessment methods. These currently embrace the use of our Learning Management System (Moodle), project-based learning, and group work, for example.\n\n
+        All our programmes have a capstone final-year project which is designed to challenge students on real industry problems that require the integration of their knowledge and skills acquired over the course of the programme. The project work is assessed through a project report, presentations and a project poster.\n\n
+        The practical strengths of our programmes derive from our strong and long-established links with practitioners and industry, ensuring that our programmes remain relevant for the appropriate challenging careers. A panel of senior industry experts also advises the School of Engineering on the strategic development of the School and its programmes.\n\n\n
+        The School\’s programmes are administered within three departments:\n\n
+        \t- <b>Dept. of Building and Civil Engineering</b>\n\n
+        \t- <b>Dept. of Electronic and Electrical Engineering</b>\n\n
+        \t- <b>Dept. of Mechanical and Industrial Engineering</b></string>
+        
+    <string name="scienceText">The School of Science comprises two departments, Life and Physical Sciences and Mathematics and Computing.\n\n
+        We offer a broad range of undergraduate programmes, mostly at Level 7 and Level 8.  We place a strong emphasis on active investigation, developing graduate skills and attributes that are attractive to employers, and giving students the opportunity to acquire research skills through practical projects.\n\n 
+<b>Science - what\'s in it for you?</b>\n\n
+        Graduates of science in GMIT will be <b>self-aware and rounded practising scientists with a broad view</b> of their subject and know how to apply it in society.\n\n
+<b>What do we expect of you?</b>\n\n
+        We want you to succeed in GMIT, which means you need to make some commitments.  Some of this sounds obvious and commonsense but you should think about it seriously.\n\n
+        You should be willing to learn – we don\'t want to, and we won\'t, hold your hand.\n\n
+        You should be willing to participate – it’s not just about you on your own.  Class activities, clubs and societies can help you build your network and help you to succeed.\n\n
+        Explore possibilities and generate ideas – start to think and act like a scientist from the first day and soon you will become one.\n\n
+        Get to know yourself - how you learn, what you do best, where you need to improve.  We will help you with this.\n\n
+<b>What do you expect of us?</b>\n\n
+        As a small experiment we asked a cross-section of first year science and computing students what they expected out of their time in GMIT.  Here\'s a sample of what they said:\n\n
+        \t- Have a better understanding of the subject area\n\n
+        \t- Possess good technical know-how\n\n
+        \t- Be attractive to employers\n\n
+        \t- Have a launch pad for further study\n\n
+        \t- Work in a team\n\n\n
+        We have tailored our programmes and the way we teach to meet these comments.  Here are three examples to show how:\n\n\n
+        We are introducing work placement, internship or projects based in the \'real-world\' into all of our programmes.\n\n
+        We place a heavy reliance on practical skills (earlier years) and in working on projects (later years).\n\n
+        We place increasing emphasis on teamworking and in written and oral communications in all of our programmes.\n\n\n
+        We have a strong tradition of providing highly practical programmes, and increasingly we include elements of real-world or authentic learning through student placement and projects sponsored by industry and business.\n\n
+        Our focus is your professional and personal development.  We want to give you the best opportunity to use your degree as a launchpad, whatever path you choose after you leave us.  More than that, we hope that you have confidence in your ability to pursue your ambition.\n\n
+        With this in mind, we have developed the LIFE programme in which we seek to blend all the ingredients together to ensure that you will be a successful student and graduate of GMIT.</string>
+    
+    <string name="humanitiesText">Fáilte chuig Scoil na hÉigse!\n\n
+        The priority of the School of Humanities is to offer excellence in all its programmes in a friendly, helpful learning environment, enabling students to engage critically and creatively in a wide variety of academic and practice disciplines.\n\n
+        The film and television and art and design programmes are delivered at the Cluain Mhuire campus, while other programmes in heritage, theology, and religious studies are delivered on the Dublin Road campus.\n\n 
+        The school has many links with industry, and programmes are run in association with external bodies, such as the Western Theological Institute and the Galway Film Centre.\n\n
+        We have a strong commitment to language and cultural studies and recognise the importance of language acquisition for graduates in today\'s multi-cultural environment.  There are, therefore, many opportunities for study exchanges to colleges in France, German, Spain, Italy, Lithuania, Hungary, the Netherlands, and the USA.\n\n
+        As part of our ongoing commitment to lifelong learning, some programmes in art and design and religious studies are offered on a part-time basis to ensure wider access for all.\n\n
+        Graduates have the opportunity to pursue post-graduate study to doctoral level by research within the School of Humanities.  In addition to opportunities for post-graduate study, the school also offers a taught Post-graduate Diploma and Master of Science in Irish Translation (Ard-Dioplóma/MSc i nGaeilge Fheidhmeach agus Aistriúchán) in association with Europus Teo and Údarás na Gaeltachta.</string>
+    
+    <string name="hotelText">Welcome to the Hotel School at GMIT and one of the most exciting and dynamic industries you can live and work in almost anywhere in the world.\n\n
+        The world of Hospitality and Tourism is a flamboyant and vibrant industry to consider joining, graduates from this school can be found on every continent and every corner of the globe. Where else can you study for a world recognised qualification and gain invaluable industry experience in Europe, USA or even Asia.\n\n
+        The Hotel School is a leading provider of Hotel, Tourism and Culinary Arts programmes in Ireland.  Awards from level 6 upwards provide learners with detailed knowledge in many disciplines and provide the essential facts and skills to help you pursue a successful and varied career in today\'s ever changing environment.\n\n
+        The Department of Hotel and Tourism Management offers degree programmes at level 8 and 7 in Hotel Management, Tourism, Retail and Customer Serivce, Event with Public Relations, Culinary Arts and Bar Management.  The school was the first in Ireland to offer a degree in hotel management back in 1977 and this programme, the BA Hons in Hotel Management, remains our flagship award.\n\n
+        The Department of Hospitality and Culinary Arts offers a number of exciting and innovative programmes at level 6 in Culinary Arts, Tourism, Hospitality Studies and Bar Supervision. This department was confirmed by Failte Ireland as a \'Beacon Centre for Culinary Arts Education\' in recent years and this is a testament to the outstanding dedicated team of lecturers working with our students in all disciplines.\n\n
+        The school works very closely with many professional bodies including Failte Ireland, Irish Hospitality Institute, Restaurant Association of Ireland, Irish Hotel Federation and the Vintners Association of Ireland but to name a few.  Through our LINKS office we value our relationship with industry colleagues and work closely with them during programme design and curriculum updates.\n\n
+        Check out our website for lots of useful information and why not contact the LINKS office to arrange a visit to come and see hospitality in action for yourself.\n\n
+        We look forward to welcoming you to Galway and the Hotel School at GMIT.</string>    
+</resources>

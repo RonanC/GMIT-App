@@ -242,7 +242,7 @@
                     android:background="@color/secondary" >
 
                     <ImageView
-                        android:id="@+id/contact"
+                        android:id="@+id/contactBtn"
                         android:layout_width="@dimen/imageBut"
                         android:layout_height="@dimen/imageBut"
                         android:layout_gravity="center_horizontal"
@@ -256,7 +256,7 @@
                         android:id="@+id/TextView06"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/contact"
+                        android:layout_alignBottom="@+id/contactBtn"
                         android:layout_centerHorizontal="true"
                         android:text="Contact"
                         android:textColor="@color/textCol"

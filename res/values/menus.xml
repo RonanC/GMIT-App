@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share">Share</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="scholarships">Scholarships</string>
+    <string name="facilities">Facilities</string>
+    <string name="fixtures">Fixtures &amp; Results</string>
+    
+    <string name="sponsorText">Supermacs (GAA)\n\nPapa Johns (GAA)\n\nHeadstrong - National Centre for Youth Mental Health (Rugby)\n\nSuper Value (Soccer)\n\nKingfisher Renmore</string>
+
+    <string name="facilityText">Sports Hall – Caters for all indoor sports\n\nRugby Grounds – Galwegians RFC \n\nGAA Pitches\n\nSoccer Pitch and Astro cages – Mervue FC\n\nTrampoline and Gymnastics – Stuntworx Ballybane\n\nOn campus Gym\n\nGym, Pool, Stramroom, Sauna and fitness classes – Kingfisher</string>
+    
+    
+    <string name="scholText">GMIT supports the development of talented athletes and recognises their increasing need to successfully balance both academic and sporting commitments. GMIT facilitates this vision through the Sports Scholarship Programme.\n\nWho can apply?\nGMIT Sports Scholarships are available to incoming first years.\nScholarships may be awarded for any sport once the individual has/is competing and performing at International, National, Inter-provincial, Inter-county and/or Senior Club level\nStudents must meet the GMIT admission requirements through the CAO system and must have registered on a programme of academic study at GMIT\n\nBenefits of Sports Scholarship at GMIT:\nThe aim of the Sports Scholarship Program at GMIT is to aid the continuous development of talented athletes both in a sporting and educational sense.\nSports Scholarship Recipients will receive the following;Financial Assistance, Developmental aids such as, physio, sports nutrition advice, sports psychology assistance, strength and conditioning, coaching courses and mentoring. Scholarship recipients will also receive gym membership and scholarship branded clothing. </string>
+    
+</resources>

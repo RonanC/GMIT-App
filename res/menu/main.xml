@@ -2,5 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="ie.gmit.gmit.MainActivity" >
     <item android:id="@+id/share" android:orderInCategory="1" android:title="@string/share" android:showAsAction="never"></item>
+    <item android:id="@+id/sponsors" android:orderInCategory="1" android:title="@string/sponsors" android:showAsAction="never"></item>
+    <item android:id="@+id/scholarships" android:orderInCategory="1" android:title="@string/scholarships" android:showAsAction="never"></item>
+    <item android:id="@+id/facilities" android:orderInCategory="1" android:title="@string/facilities" android:showAsAction="never"></item>
+	<item android:id="@+id/fixtures" android:orderInCategory="1" android:title="@string/fixtures" android:showAsAction="never"></item>
     
 </menu>

@@ -110,12 +110,12 @@ public class MainActivity extends Activity {
 
 		
 		
-		contactImg = (ImageView) findViewById(R.id.about);
+		contactImg = (ImageView) findViewById(R.id.contactBtn);
 		contactImg.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent i = new Intent(getBaseContext(), AboutActivity.class);
+				Intent i = new Intent(getBaseContext(), Contacts.class);
 				startActivity(i);
 			}
 		});					
@@ -130,12 +130,12 @@ public class MainActivity extends Activity {
 			}
 		});			
 
-		courseImg = (ImageView) findViewById(R.id.about);
+		courseImg = (ImageView) findViewById(R.id.courses);
 		courseImg.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent i = new Intent(getBaseContext(), AboutActivity.class);
+				Intent i = new Intent(getBaseContext(), Courses.class);
 				startActivity(i);
 			}
 		});			
@@ -156,15 +156,11 @@ public class MainActivity extends Activity {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
+		Intent i;
 		int id = item.getItemId();
 		switch(id){
-//			case R.id.s:
-//					Intent i = new Intent(getBaseContext(), AboutActivity.class);
-//					startActivity(i);
-//							
-//				break;
 			case R.id.share:
-				Intent i = new Intent(android.content.Intent.ACTION_SEND);
+				i = new Intent(android.content.Intent.ACTION_SEND);
 				i.setType("text/plain");
 				
 				String shareBody = "Student Portal, SU News, Bus, Gallery, Map, Clubs/Socs, Contact, About, Courses and more in the GMIT app.\nAvailable on Android.\n\n";
@@ -175,6 +171,26 @@ public class MainActivity extends Activity {
 				
 				startActivity(Intent.createChooser(i, "Share via"));
 				break;
+
+			case R.id.sponsors:
+				i = new Intent(getBaseContext(), Sponsors.class);
+				startActivity(i);
+			break;		
+			
+			case R.id.scholarships:
+				i = new Intent(getBaseContext(), Schol.class);
+				startActivity(i);
+			break;	
+			
+			case R.id.facilities:
+				i = new Intent(getBaseContext(), Facilities.class);
+				startActivity(i);
+			break;	
+			case R.id.fixtures:
+				i = new Intent(getBaseContext(), Fixtures.class);
+				startActivity(i);	
+			break;				
+				
 			default:
 				Toast.makeText(getBaseContext(), "Woops, nothing selected", Toast.LENGTH_SHORT).show();
 				break;

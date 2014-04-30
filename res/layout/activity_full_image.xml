@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="ie.gmit.gmit.FullImage"
-    tools:ignore="MergeRootFrame"
-    android:background="@color/primary">
+    tools:ignore="MergeRootFrame">
 
 <!--     <ImageView
         android:id="@+id/fullImageView"

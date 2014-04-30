@@ -10,7 +10,6 @@
     android:horizontalSpacing="10dp"
     android:verticalSpacing="0dp"
     android:gravity="center"
-    android:stretchMode="columnWidth"
-    android:background="@color/primary">
+    android:stretchMode="columnWidth">
   
 </GridView>

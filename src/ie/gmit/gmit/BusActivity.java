@@ -20,30 +20,27 @@ import android.widget.Toast;
 import android.os.Build;
 
 public class BusActivity extends Activity {
-	WebView webView;
+	WebView webView = null;
 	TextView refresh = null;
 	private String link;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_bus);
 		link = "http://www.rtpi.ie/Page_Content/Default/WebSign.aspx?stopRef=522811&stopName=Dublin%20Rd&uid=1366380527197";
 		
-		setTitle("GMIT Inner City Bus Times");
+		setTitle("GMIT Bus Times");
 		getActionBar().setDisplayHomeAsUpEnabled(true);
-		
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_su_feed);
 
-		webView = (WebView) findViewById(R.id.suFeed);  
-		
+		webView = (WebView) findViewById(R.id.busFeed);  
 		
 		webView.getSettings().setJavaScriptEnabled(true);
 		webView.getSettings().setLoadWithOverviewMode(true);
 		webView.getSettings().setUseWideViewPort(true);
 		
 		webView.getSettings().setBuiltInZoomControls(true);
-		webView.setInitialScale(200);
+		webView.setInitialScale(225);
 		
 		webView.setWebViewClient(new PortalClient());
 		try{
