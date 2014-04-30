@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/busCon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <WebView
+        android:id="@+id/busFeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MyWebView" />
+
+    <TextView
+        android:id="@+id/busRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/primary"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Refresh"
+        android:textColor="@color/textCol"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

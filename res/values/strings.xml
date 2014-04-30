@@ -5,8 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
-    <dimen name="imageBut">175sp</dimen>
-	<!--  The primary and secondary colours are the correct brand colours -->
+    <dimen name="imageBut">100sp</dimen>
+    <!-- The primary and secondary colours are the correct brand colours -->
     <color name="primary">#7D9BC1</color>
     <color name="secondary">#862633</color>
     <color name="textCol">#ffffff</color>
@@ -19,9 +19,17 @@
     <string name="title_activity_face">FaceActivity</string>
     <string name="title_activity_club">ClubActivity</string>
     <string name="title_activity_about">About</string>
-    <string name="gmitAbout">GMIT is a multi-campus college, based in five locations in the West of Ireland:\n-Galway city (two campuses)\n-Mayo\n-Letterfrack\n-Mountbellew.\n\nWe have a number of different Schools/Colleges, each specialising in a different area.\nWe also have a strong focus on research and innovation.</string>
-	
+    <string name="gmitAbout">Galway Campus is the largest of GMIT\'s five campuses and is the administrative headquarters.\n\nIt is located on the Dublin Road in Galway City and overlooks Galway Bay.\n\nThe campus building is one of Galway City\'s iconic landmarks, due to the distinctive three sail-shaped copper panels at the front of the main building.  This unique design helps identify the Institute as an innovator in modern technology, and also serves the practical purpose of housing the Library and IT Centre. \n\nA huge variety of courses are available in this campus - everything from business and science, to engineering and tourism.</string>
+    <string name="missionAbout">Mission:\n"At GMIT we develop life-long learning opportunities through our teaching and research, by supporting regional development consistent with national higher education policy."\n\nGMIT is a multi-campus college, based in five locations in the West of Ireland:\n-Galway city (two campuses)\n-Mayo\n-Letterfrack\n-Mountbellew\n\nWe have a number of different Schools/Colleges, each specialising in a different area.\n\nWe also have a strong focus on research and innovation.</string>
     <string name="devAbout">App developed by GMIT software student Ronan Connolly</string>
-	<dimen name="textSize">15dp</dimen>
-    
+
+    <dimen name="textSize">15dp</dimen>
+
+    <string name="share">Share</string>
+    <string name="title_activity_su_feed">SuFeed</string>
+    <string name="title_activity_portal">Portal</string>
+    <string name="title_activity_club_info">ClubInfo</string>
+    <string name="title_activity_club_feed">ClubFeed</string>
+    <string name="title_activity_bus">BusActivity</string>
+
 </resources>

@@ -1,10 +1,9 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/outerCon"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
-    android:orientation="vertical"
+    android:background="#ffffff"
     android:padding="5dp" >
 
     <LinearLayout
@@ -37,59 +36,295 @@
                 android:focusable="false"
                 android:gravity="center" >
 
-                <ImageView
-                    android:id="@+id/clubs"
+                <RelativeLayout
                     android:layout_width="@dimen/imageBut"
                     android:layout_height="@dimen/imageBut"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
-                    android:background="@color/secondary"
-                    android:contentDescription="clubs"
-                    android:padding="5dp"
-                    android:src="@drawable/sportimage" />
+                    android:background="@color/secondary" >
 
-                <ImageView
-                    android:id="@+id/su"
+                    <ImageView
+                        android:id="@+id/portal"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="portal"
+                        android:padding="5dp"
+                        android:src="@drawable/portal" />
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/portal"
+                        android:layout_centerHorizontal="true"
+                        android:text="Student Portal"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
                     android:layout_width="@dimen/imageBut"
                     android:layout_height="@dimen/imageBut"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
-                    android:background="@color/secondary"
-                    android:contentDescription="su"
-                    android:padding="5dp"
-                    android:src="@drawable/sufb" />
+                    android:background="@color/secondary" >
+
+                    <ImageView
+                        android:id="@+id/su"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="su"
+                        android:padding="5dp"
+                        android:src="@drawable/sufb" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/su"
+                        android:layout_centerHorizontal="true"
+                        android:text="SU News"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary" >
+
+                    <ImageView
+                        android:id="@+id/bus"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="bus"
+                        android:padding="5dp"
+                        android:src="@drawable/bus" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/bus"
+                        android:layout_centerHorizontal="true"
+                        android:text="Bus"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+                       
+                </RelativeLayout>
             </TableRow>
 
             <TableRow
-                android:id="@+id/tableRow1"
+                android:id="@+id/tableRow2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="false"
                 android:gravity="center" >
 
-                <ImageView
-                    android:id="@+id/map"
+                <RelativeLayout
                     android:layout_width="@dimen/imageBut"
                     android:layout_height="@dimen/imageBut"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
-                    android:background="@color/secondary"
-                    android:contentDescription="map"
-                    android:padding="5dp"
-                    android:src="@drawable/map" />
+                    android:background="@color/secondary" >
 
-                <ImageView
-                    android:id="@+id/gallery"
+                    <ImageView
+                        android:id="@+id/gall"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="gallery"
+                        android:padding="5dp"
+                        android:src="@drawable/galleryicon" />
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/gall"
+                        android:layout_centerHorizontal="true"
+                        android:text="Gallery"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                
+                 <RelativeLayout
                     android:layout_width="@dimen/imageBut"
                     android:layout_height="@dimen/imageBut"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
-                    android:background="@color/secondary"
-                    android:contentDescription="gallery"
-                    android:padding="5dp"
-                    android:src="@drawable/galleryicon" />
+                    android:background="@color/secondary" >
+
+                    <ImageView
+                        android:id="@+id/map"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="map"
+                        android:padding="5dp"
+                        android:src="@drawable/map" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/map"
+                        android:layout_centerHorizontal="true"
+                        android:text="Map"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary" >
+
+                    <ImageView
+                        android:id="@+id/clubs"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="clubs"
+                        android:padding="5dp"
+                        android:src="@drawable/sportimage" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/clubs"
+                        android:layout_centerHorizontal="true"
+                        android:text="Clubs/Socs"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>  
+                                          
             </TableRow>
+            
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="center" >
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary" >
+
+                    <ImageView
+                        android:id="@+id/contact"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="contact"
+                        android:padding="5dp"
+                        android:src="@drawable/phone" />
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/contact"
+                        android:layout_centerHorizontal="true"
+                        android:text="Contact"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary" >
+
+                    <ImageView
+                        android:id="@+id/about"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="about"
+                        android:padding="5dp"
+                        android:src="@drawable/q" />
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/about"
+                        android:layout_centerHorizontal="true"
+                        android:text="About GMIT"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+                </RelativeLayout>    
+
+                <RelativeLayout
+                    android:layout_width="@dimen/imageBut"
+                    android:layout_height="@dimen/imageBut"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@color/secondary" >
+
+                    <ImageView
+                        android:id="@+id/courses"
+                        android:layout_width="@dimen/imageBut"
+                        android:layout_height="@dimen/imageBut"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@color/primary"
+                        android:contentDescription="courses"
+                        android:padding="5dp"
+                        android:src="@drawable/gradhat" />
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/courses"
+                        android:layout_centerHorizontal="true"
+                        android:text="Courses"
+                        android:textColor="@color/textCol"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                                
+            </TableRow>                    
         </TableLayout>
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

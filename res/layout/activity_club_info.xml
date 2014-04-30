@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outerClub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/clubInfoScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context="ie.gmit.gmit.ClubInfo$PlaceholderFragment" >
+
+            <ImageView
+                android:id="@+id/clubImage"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/clubBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="body"
+                android:textSize="16dp"
+                android:layout_marginBottom="40dp" />
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/clubLink"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/primary"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Facebook"
+        android:textColor="@color/textCol"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

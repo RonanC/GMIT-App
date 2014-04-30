@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.app.ListActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,18 +18,41 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.os.Build;
 
-public class ClubActivity extends Activity {
+/*
+ * This class holds a list of societies/clubs that are populated from a listAdapter
+ * it uses the ClubInformation class to get this data, it then passes its data to the ClubInfo page for population when an item is selected
+ */
+
+public class ClubActivity extends ListActivity {
+	private ClubInformation ci = null;
+	
+	@Override
+	protected void onListItemClick(ListView l, View v, int position, long id) {
+		// TODO Auto-generated method stub
+		super.onListItemClick(l, v, position, id);
+		
+		Intent i = new Intent(getBaseContext(), ClubInfo.class);
+		i.putExtra("intent", position);
+		i.putExtra("name", ci.getName(position));
+		i.putExtra("body", ci.getBody(position));
+		i.putExtra("link", ci.getLink(position));
+		i.putExtra("image", ci.getImage(position));
+		startActivity(i);
+		
+		//Toast.makeText(getBaseContext(), "tap: " + id , Toast.LENGTH_SHORT).show();
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_club);
+		//setContentView(R.layout.activity_club);
+		ci = new ClubInformation();
 		
 		setTitle("Clubs & Societies");
 		getActionBar().setDisplayHomeAsUpEnabled(true);		
-		
 		init();
 	}
 
@@ -35,19 +60,20 @@ public class ClubActivity extends Activity {
 		// gets and edits the ActionBar
 		//ActionBar actionBar = getActionBar();
 		//actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_TITLE);
-
+		Log.d("GMIT", "1");
 		// values to be added to list, The ListView itself
-		String[] values = new String[] {"ACE Society", "Anime & Manga", "Archery Club", "Athletics", "Badminton", "Basketball", "Best Buddies GMIT", "Boxing", "Camogie", "Computer Society", "Cricket", "Cumann Gaelach", "Darts Club", "DJ Society", "Engineering Society",  "Equestrian Society", "Fianna Fail Society", "Film Making Society", "Foir Oige", "Futsal", "Gaelic Football - Mens", "Gaelic Football - Womens", "Gaming Society", "GMIT Wishmakers On Campus", "Handball", "Hurling", "Heritage Society", "International Society", "Indoor Soccer", "Karate", "Karting Society", "Kayak", "Kickboxing", "Letterfrack", "LGBT Society", "Living History Society", "Mature Students Society", "Photography Society - Flash Mob", "Robotics Society", "Rugby Club", " Science Society", "Sinn Fein", "Soccer", "Sub-Aqua", "Surfing", "Swing Dance", "Table Tennis", "Air Soft", "Tag Rugby", "Trampolining/Gymnastics", "Volleyball", "Womens Rugby"};
-		ListView listView = (ListView) findViewById(R.id.clubCon);
+
+		//ListView listView = (ListView) findViewById(R.id.clubCon);
 		
 		// create a list and populate it
 		ArrayList<String> list = new ArrayList<String>();
-	    for (int i = 0; i < values.length; ++i) {
-	      list.add(values[i]);
+	    for (int i = 0; i < ci.getLen(); ++i) {
+	      list.add(ci.getName(i));
 	    }
-	    
+	    Log.d("GMIT", "2");
 		// adapter which interacts with list; adapter linked to ListView
-	    ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list){
+	    @SuppressWarnings("unchecked")
+		ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list){
 
 			@Override
 			public View getView(int position, View convertView, ViewGroup parent) {
@@ -55,13 +81,15 @@ public class ClubActivity extends Activity {
 			    TextView text = (TextView) view.findViewById(android.R.id.text1);
 			    
 			    text.setTextColor(Color.WHITE);
+			    view.setBackgroundColor(Color.rgb(125, 155, 193));
 			    
 				return view;
 			}
 
 	    };
-	    listView.setAdapter(adapter);
-	    
+	    Log.d("GMIT", "3");
+	    //listView.setAdapter(adapter);
+	    setListAdapter(adapter);
 	}
 
 	@Override

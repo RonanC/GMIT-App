@@ -77,7 +77,29 @@
         </activity>
         <activity
             android:name="ie.gmit.gmit.AboutActivity"
-            android:label="@string/title_activity_about" >
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.SuFeed"
+            android:label="@string/title_activity_su_feed" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.Portal"
+            android:label="@string/title_activity_portal" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.ClubInfo"
+            android:label="@string/title_activity_club_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.ClubFeed"
+            android:label="@string/title_activity_club_feed" >
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.BusActivity"
+            android:label="@string/title_activity_bus" >
         </activity>
     </application>
 
