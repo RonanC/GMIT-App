@@ -1,3 +1,9 @@
+/**
+ * GMIT Android App project - Mobile Programming
+ * GMIT - Lecturer: Brian Costello - 2nd May 2014
+ * Student: Ronan Connolly, G00274374
+ */
+
 package ie.gmit.gmit;
 
 import android.app.Activity;

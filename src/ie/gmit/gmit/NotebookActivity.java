@@ -62,8 +62,6 @@ public class NotebookActivity extends ListActivity {
 		setTitle("Notebook: " + fileName);
 		
 		init();
-		
-		notebook.addNote("New Note");
 	}
 	
 	private void init() {
@@ -147,6 +145,8 @@ public class NotebookActivity extends ListActivity {
 		notebook.editNote(updatedPosition, updatedNote);
 		adapter = new ArrayAdapter<String>(this, R.layout.activity_notebook, notebook.getNotebook());
 		setListAdapter(adapter);
+		
+		saveNotebookList();
 		adapter.notifyDataSetChanged();		
 	}
 	

@@ -19,7 +19,8 @@ import android.widget.*;
 import android.os.Build;
 
 /*
- * This class
+ * This class shows off taking data from various widgets
+ * creating a notification with data from said widgets
  */
 
 public class Test extends Activity {

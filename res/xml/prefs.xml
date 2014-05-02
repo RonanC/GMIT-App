@@ -6,8 +6,7 @@
 	        android:name="fileName"
 	        android:dialogTitle="Notebook:"
 	        android:summary="Enter the notebook name you wish to use."
-	        android:title="Notebook Name"
-	        android:defaultValue="college"/>
+	        android:title="Notebook Name"/>
 	    
 	    <CheckBoxPreference android:title="Save to SD Card"
 	        android:key="saveSDCard"
