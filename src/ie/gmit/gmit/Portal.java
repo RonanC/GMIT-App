@@ -14,6 +14,10 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.os.Build;
 
+/*
+ * This activity implements a simple webview for accessing gmits student portal
+ */
+
 public class Portal extends Activity {
 	WebView webView;
 	

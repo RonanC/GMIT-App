@@ -12,6 +12,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
+/*
+ * This basic activity implements a textview for the sponsors string
+ */
+
 public class Sponsors extends Activity {
 
 	@Override

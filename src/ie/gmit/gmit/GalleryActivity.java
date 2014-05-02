@@ -10,6 +10,11 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
+/*
+ * This activity implements a gridview for displaying all of the images stated in the imageAdapter class' image array
+ * When an item is selected we pass in its position to the full image activity where it will be displayed full screen
+ */
+
 public class GalleryActivity extends Activity {
 
 	@Override

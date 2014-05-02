@@ -117,21 +117,44 @@
             android:name="ie.gmit.gmit.Schol"
             android:label="@string/scholarships" >
         </activity>
-        
         <activity
             android:name="ie.gmit.gmit.Contacts"
             android:label="@string/contacts" >
         </activity>
-        
         <activity
             android:name="ie.gmit.gmit.Courses"
             android:label="@string/courses" >
-        </activity>          
-        
-                <activity
+        </activity>
+        <activity
             android:name="ie.gmit.gmit.CourseInfo"
             android:label="@string/courseInfo" >
-        </activity>    
+        </activity>
+        <activity
+            android:name="ie.gmit.gmit.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        
+        <activity
+            android:name="ie.gmit.gmit.AppPrefs"
+            android:label="@string/AppPrefs" >
+        </activity>        
+        
+        <activity
+            android:name="ie.gmit.gmit.NotebookActivity"
+            android:label="@string/notebook" >
+        </activity>      
+        
+        
+        
+         <activity
+            android:name="ie.draw.DrawBoard"
+            android:label="Draw Board" >
+        </activity>
+        
+        <activity
+            android:name="ie.draw.DrawActivity"
+            android:label="Draw" >
+        </activity>
     </application>
 
 </manifest>

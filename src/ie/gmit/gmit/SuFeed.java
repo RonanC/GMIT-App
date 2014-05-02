@@ -15,6 +15,11 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.os.Build;
 
+/*
+ * This activity implements a webview for displaying the Student Union Facebook Feed
+ * Eventually I would like to be able to get the data directly and put it into a notification
+ */
+
 public class SuFeed extends Activity {
 	WebView webView;
 	

@@ -7,6 +7,11 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+/*
+ * This class holds all the images and has basic get methods for accessing said images
+ * This class is used by the gallery activity
+ */
+
 public class ImageAdapter extends BaseAdapter{
 	private Context mContext;
 	

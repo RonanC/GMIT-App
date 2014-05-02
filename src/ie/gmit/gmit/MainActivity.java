@@ -13,6 +13,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+/*
+ * This activity is the homepage for the app,
+ * It contains 9 icons for the main functions
+ * It also contains 5 options to choose from
+ * All sub activities have the arrow shown on the action bar to be able to go home (similar to the back button)
+ */
 public class MainActivity extends Activity {
 	private ImageView portalImg = null;
 	private ImageView suImg = null;
@@ -23,7 +29,7 @@ public class MainActivity extends Activity {
 	private ImageView clubImg = null;
 	
 	private ImageView contactImg = null;
-	private ImageView aboutImg = null;
+	private ImageView notebookImg = null;
 	private ImageView courseImg = null;
 
 	@Override
@@ -33,7 +39,10 @@ public class MainActivity extends Activity {
 		
 		init();
 	}
-
+	
+	/*
+	 * This init() method sets up the onClickListeners
+	 */
 	private void init() {
 		// TODO Auto-generated method stub
 		
@@ -120,12 +129,12 @@ public class MainActivity extends Activity {
 			}
 		});					
 		
-		aboutImg = (ImageView) findViewById(R.id.about);
-		aboutImg.setOnClickListener(new View.OnClickListener() {
+		notebookImg = (ImageView) findViewById(R.id.notebook);
+		notebookImg.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent i = new Intent(getBaseContext(), AboutActivity.class);
+				Intent i = new Intent(getBaseContext(), NotebookActivity.class);
 				startActivity(i);
 			}
 		});			
@@ -151,6 +160,9 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	/*
+	 * This method sets up a switch for when an option is selected
+	 */
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
@@ -189,8 +201,18 @@ public class MainActivity extends Activity {
 			case R.id.fixtures:
 				i = new Intent(getBaseContext(), Fixtures.class);
 				startActivity(i);	
-			break;				
-				
+			break;	
+			
+			case R.id.about:
+				i = new Intent(getBaseContext(), AboutActivity.class);
+				startActivity(i);	
+			break;	
+			
+			case R.id.test:
+				i = new Intent(getBaseContext(), Test.class);
+				startActivity(i);	
+			break;		
+			
 			default:
 				Toast.makeText(getBaseContext(), "Woops, nothing selected", Toast.LENGTH_SHORT).show();
 				break;

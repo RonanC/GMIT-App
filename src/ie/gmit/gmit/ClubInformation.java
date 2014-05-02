@@ -167,7 +167,7 @@ public class ClubInformation {
 			"Womens Rugby"};
 	
 	private String[] images = new String[] {
-			"R.drawables.", 
+			"R.drawable.clubAce", 
 			"Anime & Manga", 
 			"Archery Club", 
 			"Athletics", 

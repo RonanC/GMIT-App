@@ -2,22 +2,21 @@
 <resources>
 
     <string name="app_name">GMIT</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
     <dimen name="imageBut">100sp</dimen>
+
     <!-- The primary and secondary colours are the correct brand colours -->
     <color name="primary">#7D9BC1</color>
     <color name="secondary">#862633</color>
     <color name="textCol">#ffffff</color>
 
-    <string name="title_activity_gallery">GalleryActivity</string>
-    <string name="title_full_image">Gallery</string>
-    <string name="title_activity_map">MapActivity</string>
-    <string name="title_activity_facebook">FacebookActivity</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_full_image">Image</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_facebook">SU FB Feed</string>
     <string name="app_id">1391026141181572</string>
-    <string name="title_activity_face">FaceActivity</string>
-    <string name="title_activity_club">ClubActivity</string>
+    <string name="title_activity_club">Clubs &amp; Societies</string>
     <string name="title_activity_about">About</string>
     <string name="gmitAbout">Galway Campus is the largest of GMIT\'s five campuses and is the administrative headquarters.\n\nIt is located on the Dublin Road in Galway City and overlooks Galway Bay.\n\nThe campus building is one of Galway City\'s iconic landmarks, due to the distinctive three sail-shaped copper panels at the front of the main building.  This unique design helps identify the Institute as an innovator in modern technology, and also serves the practical purpose of housing the Library and IT Centre. \n\nA huge variety of courses are available in this campus - everything from business and science, to engineering and tourism.</string>
     <string name="missionAbout">Mission:\n"At GMIT we develop life-long learning opportunities through our teaching and research, by supporting regional development consistent with national higher education policy."\n\nGMIT is a multi-campus college, based in five locations in the West of Ireland:\n-Galway city (two campuses)\n-Mayo\n-Letterfrack\n-Mountbellew\n\nWe have a number of different Schools/Colleges, each specialising in a different area.\n\nWe also have a strong focus on research and innovation.</string>
@@ -32,10 +31,26 @@
     <string name="title_activity_bus">BusActivity</string>
     <string name="title_activity_fixtures">Fixtures</string>
     <string name="title_activity_sponsors">Sponsors</string>
-    
     <string name="contacts">Contact Us</string>
     <string name="courses">Courses</string>
-    
     <string name="courseInfo">Course Information</string>
+    <string name="title_activity_test">Test</string>
+    
+    <!-- Below is for testing -->
+    <string name="settingsName">Name</string>
+    <string name="settingsNameHint">Enter name</string>
+    <string name="settingsDescribe">GMIT Description</string>
+    <string name="settingsNotify">Notify</string>
+    
+    <string name="settingsRadio1">GMIT</string>
+    <string name="settingsRadio2">Galway Mayo Institute of Technology</string>
+    
+    <string name="testSettings">Test Settings</string>
+    <string name="AppPrefs">App Prefs</string>
+    
+     <string name="notebook">Notebook</string>
+    
+    
+    
 
 </resources>

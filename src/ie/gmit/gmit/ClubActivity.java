@@ -81,6 +81,7 @@ public class ClubActivity extends ListActivity {
 			    TextView text = (TextView) view.findViewById(android.R.id.text1);
 			    
 			    text.setTextColor(Color.WHITE);
+			    // the below rgb values are the exact same as the official GMIT primary colour
 			    view.setBackgroundColor(Color.rgb(125, 155, 193));
 			    
 				return view;

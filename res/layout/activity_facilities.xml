@@ -12,7 +12,7 @@
         android:paddingBottom="@dimen/activity_vertical_margin"
         tools:context="ie.gmit.gmit.ClubInfo$PlaceholderFragment" >
 
-<!--         <ImageView
+<!-- Add this image in later         <ImageView
             android:id="@+id/clubImage"
             android:layout_width="match_parent"
             android:layout_height="150dp"

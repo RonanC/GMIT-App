@@ -50,18 +50,20 @@ public class ClubInfo extends Activity {
 		logoView.setImageResource(R.drawable.oldcover);
 		bodyView.setText(body);
 		
-//		switch(position){
-//		case 0:
-//			//logoView.setImageResource(R.drawable.oldcover);
-//			
-//			break;
-//		
-//		case 1:
-//			logoView.setImageResource(R.drawable.oldcover);
-//			bodyView.setText(body);
-//			break;
-//			
-//		}
+		// could use a switch would a string xml document to populate the activity
+		// I'd rather pass it in like with a class because then I can load in the club information from a file or feed easier
+/*		switch(position){
+		case 0:
+			//logoView.setImageResource(R.drawable.oldcover);
+			
+			break;
+		
+		case 1:
+			logoView.setImageResource(R.drawable.oldcover);
+			bodyView.setText(body);
+			break;
+			
+		}*/
 		
 		
 		linkView.setOnClickListener(new OnClickListener() {

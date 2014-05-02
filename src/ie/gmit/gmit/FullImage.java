@@ -13,6 +13,11 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+/*
+ * This activity pushes the selected image from the gallery activity into an imageview which is displayed full screen.
+ * It doesn't use swipe view but I intend on adding a ViewPager in order to do this
+ */
+
 public class FullImage extends FragmentActivity {
 //	private ViewPager mPager;
 	

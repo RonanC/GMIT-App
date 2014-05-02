@@ -19,6 +19,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Build;
 
+/*
+ * This activity displays a WebView, we then load the bus website url into it.
+ * I have zooming enabled
+ * I have a refresh TextView for reloading the WebView
+ */
+
 public class BusActivity extends Activity {
 	WebView webView = null;
 	TextView refresh = null;

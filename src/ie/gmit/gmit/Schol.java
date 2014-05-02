@@ -12,6 +12,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
+/*
+ * This basic activity implements a textview for the scholorships string
+ */
+
 public class Schol extends Activity {
 
 	@Override

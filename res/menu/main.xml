@@ -2,9 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="ie.gmit.gmit.MainActivity" >
     <item android:id="@+id/share" android:orderInCategory="1" android:title="@string/share" android:showAsAction="never"></item>
-    <item android:id="@+id/sponsors" android:orderInCategory="1" android:title="@string/sponsors" android:showAsAction="never"></item>
-    <item android:id="@+id/scholarships" android:orderInCategory="1" android:title="@string/scholarships" android:showAsAction="never"></item>
-    <item android:id="@+id/facilities" android:orderInCategory="1" android:title="@string/facilities" android:showAsAction="never"></item>
-	<item android:id="@+id/fixtures" android:orderInCategory="1" android:title="@string/fixtures" android:showAsAction="never"></item>
-    
+    <item android:id="@+id/sponsors" android:orderInCategory="2" android:title="@string/sponsors" android:showAsAction="never"></item>
+    <item android:id="@+id/scholarships" android:orderInCategory="3" android:title="@string/scholarships" android:showAsAction="never"></item>
+    <item android:id="@+id/facilities" android:orderInCategory="4" android:title="@string/facilities" android:showAsAction="never"></item>
+	<item android:id="@+id/fixtures" android:orderInCategory="5" android:title="@string/fixtures" android:showAsAction="never"></item>
+	<item android:id="@+id/about" android:orderInCategory="6" android:title="@string/title_activity_about" android:showAsAction="never"></item>
+	<item android:id="@+id/test" android:orderInCategory="7" android:title="@string/title_activity_test" android:showAsAction="never"></item>
+		
 </menu>

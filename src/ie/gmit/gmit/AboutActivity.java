@@ -12,6 +12,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
+/*
+ * This activity is a static page that holds TextViews and ImageViews
+ */
+
 public class AboutActivity extends Activity {
 
 	@Override

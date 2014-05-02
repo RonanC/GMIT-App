@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingsCon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ie.gmit.gmit.Test"
+    tools:ignore="MergeRootFrame" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*" >
+
+        <!-- Part 1 -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settingsName" />
+
+            <EditText
+                android:id="@+id/txtStudentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/settingsNameHint" />
+        </TableRow>
+        
+		<!-- Part 2 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settingsDescribe" />
+
+            <Spinner
+                android:id="@+id/settingsDescribeList"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </TableRow>
+    </TableLayout>
+    
+    <!--  Part 3 -->
+    <RadioGroup
+        android:id="@+id/settingsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/settingsRadio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settingsRadio1" />
+
+        <RadioButton
+            android:id="@+id/settingsRadio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settingsRadio2" />
+    </RadioGroup>
+           
+</LinearLayout>

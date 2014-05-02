@@ -13,7 +13,10 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-
+/*
+ * This activity uses a mapfragment class with a fragment xml to display a google map with various gmit related locations.
+ * A google console api key was created with this programs SHA1 key and package name, this is needed in order to download the map images from Google
+ */
 
 public class MapActivity extends FragmentActivity {
 	static final LatLng GMIT = new LatLng(53.2786709, -9.0104636);

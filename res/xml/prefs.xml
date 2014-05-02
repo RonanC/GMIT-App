@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="General Preferences" >
+    	    
+	    <EditTextPreference android:key="fileName"
+	        android:name="fileName"
+	        android:dialogTitle="Notebook:"
+	        android:summary="Enter the notebook name you wish to use."
+	        android:title="Notebook Name"
+	        android:defaultValue="college"/>
+	    
+	    <CheckBoxPreference android:title="Save to SD Card"
+	        android:key="saveSDCard"
+	        android:summary="Save the list to the SD Card."/>
+	    
+	</PreferenceCategory>
+</PreferenceScreen>

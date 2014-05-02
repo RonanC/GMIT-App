@@ -272,7 +272,7 @@
                     android:background="@color/secondary" >
 
                     <ImageView
-                        android:id="@+id/about"
+                        android:id="@+id/notebook"
                         android:layout_width="@dimen/imageBut"
                         android:layout_height="@dimen/imageBut"
                         android:layout_gravity="center_horizontal"
@@ -280,17 +280,18 @@
                         android:background="@color/primary"
                         android:contentDescription="about"
                         android:padding="5dp"
-                        android:src="@drawable/q" />
+                        android:src="@drawable/note" />
 
                     <TextView
                         android:id="@+id/TextView03"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/about"
+                        android:layout_alignBottom="@+id/notebook"
                         android:layout_centerHorizontal="true"
-                        android:text="About GMIT"
+                        android:text="Notes"
                         android:textColor="@color/textCol"
                         android:textStyle="bold" />
+
                 </RelativeLayout>    
 
                 <RelativeLayout
