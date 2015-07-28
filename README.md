@@ -1,7 +1,9 @@
 =======================================================
- * GMIT - Mobile Programming - Lecturer: Brian Costello
- * GMIT Android App project - 2nd May 2014
- * Student: Ronan Connolly, G00274374
+
+GMIT - Mobile Programming - Lecturer: Brian Costello
+GMIT Android App project - 2nd May 2014
+Student: Ronan Connolly, G00274374
+
 =======================================================
  
  Features:
@@ -69,7 +71,8 @@
  	Show the five schools within GMIT
  	Tap on a school to bring you to the schoolInfo page which shows a text view outlining the school
 
-OPTIONS: 	
+OPTIONS: 
+ --------------------------
  *	Share:
  	Brings up a dialog with various places to share the app
  	
@@ -108,11 +111,7 @@ OPTIONS:
  
  Installation Instructions:
  --------------------------
- *	
- *	
- *	
- *	
- *	 
+ *	open apk up on your phone
  
  
  Running the Application:
