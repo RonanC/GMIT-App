@@ -6,7 +6,7 @@ Student: Ronan Connolly, G00274374
 
  
  Features:
- --------------------------
+-----
  MAIN ICONS
  *	Student Portal:
  	Uses a webview to display GMIT's student portal url
@@ -71,7 +71,7 @@ Student: Ronan Connolly, G00274374
  	Tap on a school to bring you to the schoolInfo page which shows a text view outlining the school
 
 OPTIONS: 
- --------------------------
+-----
  *	Share:
  	Brings up a dialog with various places to share the app
  	
@@ -98,7 +98,7 @@ OPTIONS:
  	
  	
  Extra Information:
- --------------------------
+-----
  *	Most of the testing was done on a Nexus 4 device, to see my vision test it with this emulator.
  	it seems to be okay with other devices though (tested with emulator).
  *	GMIT Icon made with the 2 official colours, made into a button with a bevel for added effect.
@@ -109,12 +109,12 @@ OPTIONS:
  
  
  Installation Instructions:
- --------------------------
+-----
  *	open apk up on your phone
  
  
  Running the Application:
- --------------------------
+-----
  *	Running the application is simple, follow the instructions above in order to install the app
  *	Once installed read through the features list above to get a feel for the app features
  *	This app is very intuitive and straight forward
@@ -125,6 +125,6 @@ OPTIONS:
  
  
   Developer:
- --------------------------
+-----
  *	Developed by GMIT student Ronan Connolly (G00274374) in conjunction with GMIT for a Mobile Programming project - (May 2014)
  
