@@ -1,12 +1,9 @@
-=======================================================
+GMIT Android Application
+====================
+GMIT - Mobile Programming - Lecturer: Brian Costello  
+GMIT Android App project - 2nd May 2014  
+Student: Ronan Connolly, G00274374  
 
-GMIT - Mobile Programming - Lecturer: Brian Costello
-
-GMIT Android App project - 2nd May 2014
-
-Student: Ronan Connolly, G00274374
-
-=======================================================
  
  Features:
  --------------------------
